@@ -1,0 +1,12 @@
+INFURA_API_KEY=xxxxxxxxxxxxx
+INFURA_PROJECT_SECRET=xxxxxxxxxxxxx
+ETHERSCAN_API_KEY=xxxxxxxxxxxxx
+COINMARKETCAP_KEY=xxxxxxxxxxxxx
+
+MAINNET_PRIVATE_KEY=xxxxxxxxxxxxx
+GOERLI_PRIVATE_KEY=xxxxxxxxxxxxx
+RINKEBY_PRIVATE_KEY=xxxxxxxxxxxxx
+ROPSTEN_PRIVATE_KEY=xxxxxxxxxxxxx
+MATIC_PRIVATE_KEY=xxxxxxxxxxxxx
+MUMBAI_PRIVATE_KEY=xxxxxxxxxxxxx
+MATIC_PRIVATE_KEY=xxxxxxxxxxxxx
