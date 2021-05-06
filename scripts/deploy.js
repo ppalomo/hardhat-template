@@ -8,9 +8,9 @@ async function main() {
     console.log("Account balance => ", (await deployer.getBalance()).toString());
 
     // Deploying autograph contract
-    SimpleStorage = await ethers.getContractFactory("SimpleStorage");
-    simpleStorage = await SimpleStorage.deploy();
-    console.log("SimpleStorage address => ", simpleStorage.address);
+    SampleContract = await ethers.getContractFactory("SampleContract");
+    sampleContract = await SampleContract.deploy();
+    console.log("SampleContract address => ", sampleContract.address);
 
 }
 

@@ -5,10 +5,10 @@ const { solidity } = require("ethereum-waffle");
 var BigNumber = require('big-number');
 use(solidity);
 
-describe("SampleStorage Contract", function() {
+describe("SampleContract", function() {
 
-    let SimpleStorage;
-    let simpleStorage;
+    let SampleContract;
+    let sampleContract;
     let owner;
     let addr1;
     let addr2;
@@ -19,9 +19,9 @@ describe("SampleStorage Contract", function() {
         // Initializing variables
 
         // Deploying contracts
-        SimpleStorage = await ethers.getContractFactory("SimpleStorage");
-        simpleStorage = await SimpleStorage.deploy();
-        expect(simpleStorage.address).to.properAddress;
+        SampleContract = await ethers.getContractFactory("SampleContract");
+        sampleContract = await SampleContract.deploy();
+        expect(sampleContract.address).to.properAddress;
 
         // Getting test accounts
         [owner, addr1, addr2, ...addrs] = await ethers.getSigners();
